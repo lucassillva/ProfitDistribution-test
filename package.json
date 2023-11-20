@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "cypress": "^13.3.3"
+  },
+  "dependencies": {
+    "numeral": "^2.0.6"
+  }
+}
