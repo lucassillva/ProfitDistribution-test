@@ -34,7 +34,7 @@ describe('Test Back-end', () => {
       var participationValue = convertFromString(response.body.data.participations[0].participationValue).toFixed(2)
       
       expect(response.status).to.be.equal(200)
-      expect(participationValue).to.be.equal(employeeParticipationValue.toFixed(2))
+      expect(participationValue).to.be.equal(employeeParticipationValue.toFixed(2)
     })
   })
 
