@@ -42,6 +42,6 @@ describe('Test Back-end', () => {
     ProfitDistributionRequest(1000000, (response) => { 
       expect(response.status).to.be.equal(400)  
     }, false)
-  }
+  })
 })
 
