@@ -1,4 +1,3 @@
-/// <reference types='cypress'/>
 
 import { convertFromString } from '../../support/currency'
 import { ProfitDistributionRequest } from '../../support/requests'
@@ -43,6 +42,5 @@ describe('Test Back-end', () => {
       expect(response.status).to.be.equal(400)  
     }, false)
   })
-  //teste
 })
 
