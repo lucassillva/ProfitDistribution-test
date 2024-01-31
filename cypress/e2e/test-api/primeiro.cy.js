@@ -9,7 +9,7 @@ const PFS = 5
 
 describe('Test Back-end', () => {
   it('Should list the employees and their participation Value', () => {
-    ProfitDistributionRequest(4000000, (response) => {
+    ProfitDistributionRequest(40000000, (response) => {
       let expectedTotalDistributed = 0
 
       response.body.data.participations.forEach(employee => {
@@ -42,6 +42,6 @@ describe('Test Back-end', () => {
       expect(response.status).to.be.equal(400)  
     }, false)
   })
-  //testee
+  
 })
 
